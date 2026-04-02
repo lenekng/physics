@@ -56,7 +56,7 @@ def visualization(potential, ax1, ew, ev, x_i, E_max, scale, colors):
     # Plot of the eigenfunctions and eigenenergies for E_n < 0.1
     while ew[i] < E_max:
         ax1.plot(x_i, scale * ev.T[i] + ew[i], c=colors[i],
-                 label='Eigenfunction {} at eigenenergy {:.3f}'
+                 label='EF {} at EV {:.3f}'
                  .format(i, ew[i]))
         ax1.axhline(y=ew[i], c=colors[i], ls='dashdot', alpha=0.7)
         i = i + 1

@@ -4,7 +4,7 @@ Numerical solutions of the one-dimensional Schrödinger equation with a focus on
 
 ## Overview
 
-This project implements numerical methods to study quantum systems in one spatial dimension.  
+This project implements numerical methods to study quantum systems.  
 Both the time-independent and time-dependent Schrödinger equation are solved and visualized.
 
 ## Potential
@@ -15,6 +15,11 @@ V(x) = x^4 - x^2 - A x
 
 where A controls the asymmetry of the potential.
 
+#### Example
+
+![double-well potential with eigenvalues and eigenfunctions](time-indep.png)
+
+
 ## Periodic Potential
 
 The project also includes a simulation of a particle in a periodic potential
@@ -23,10 +28,13 @@ The project also includes a simulation of a particle in a periodic potential
 V(x) = A * cos(2 * pi x)
 
 
-The program computes the energy spectrum as a function of the Bloch wave vector and visualizes the corresponding eigenfunctions, leading to the formation of energy bands.
+The program computes the energy spectrum and visualizes the corresponding eigenfunctions by clicking in in ax1 for a specific k.
 
 Periodic potentials occur in crystal lattices in solid-state physics and describe the behavior of charge carriers in solids.
 
+#### Example
+
+![Band structure and eigenfunctions](eigenfunctions_k_3.15.png)
 
 ## Contents
 
@@ -49,14 +57,12 @@ Periodic potentials occur in crystal lattices in solid-state physics and describ
 - Implementation of Bloch boundary conditions  
 - Interactive visualization of eigenfunctions
 
-  #### Example
-
   
   
 ## Files
 
 - `quantenmechanik.py`  
-  Core numerical methods:
+    numerical methods:
   - spatial discretization
   - Hamiltonian construction
   - diagonalization

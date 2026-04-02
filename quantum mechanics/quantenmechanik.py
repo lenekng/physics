@@ -75,9 +75,6 @@ def plot_eigenfunctions(ax, ew, ef, x, V, width=1, Emax=0.15, scale=0.01,
         baseline: specifies whether a dashed gray line is drawn
             at the level of each eigenenergy.
         alpha: specifies the transparency when plotting the eigenfunctions
-            (see also the Matplotlib documentation for plot()). alpha can
-            also be an array of transparency values with a specific value
-            for each eigenfunction.
         title: title of the plot.
     """
     if title is None:

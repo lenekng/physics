@@ -106,10 +106,10 @@ def main():
     
     potential = functools.partial(doublewell, A = A)
     # Spatial discretization
-    x, dx = qm.diskretisierung(xmin, xmax, N, retstep=True)
+    x, dx = qm.discretization(xmin, xmax, N, retstep=True)
 
     # calculation of eigenvalues and eigenvectors
-    ew, ev = qm.diagonalisierung(heff, x, potential)
+    ew, ev = qm.diagonalization(heff, x, potential)
 
     # time for 0 to 10
     t_array = np.linspace(0.0,10.0,200)
@@ -123,11 +123,11 @@ def main():
     fig = plt.figure()
     ax = fig.add_subplot(111)
 
-    ew1, ev1 = qm.diagonalisierung(heff, x, potential)
+    ew1, ev1 = qm.diagonalization(heff, x, potential)
 
     # Plot of the eigenfunctions at the level of the eigenenergy
-    qm.plot_eigenfunktionen(ax, ew1, ev1, x, potential, alpha = 0.5,
-                            fak = skal, betragsquadrat=True)
+    qm.plot_eigenfunctions(ax, ew1, ev1, x, potential, alpha = 0.5,
+                            scale = skal, magnitude_squared=True)
     
     klick_function = functools.partial(Klick, ax = ax, x = x,
                 welle = wave, pot = potential,
