@@ -15,6 +15,19 @@ V(x) = x^4 - x^2 - A x
 
 where A controls the asymmetry of the potential.
 
+## Periodic Potential
+
+The project also includes a simulation of a particle in a periodic potential
+
+\[
+V(x) = A \cos(2\pi x)
+\]
+
+The program computes the energy spectrum as a function of the Bloch wave vector and visualizes the corresponding eigenfunctions, leading to the formation of energy bands.
+
+Periodic potentials occur in crystal lattices in solid-state physics and describe the behavior of charge carriers in solids.
+
+
 ## Contents
 
 ### 1. Time-independent Schrödinger equation
@@ -30,6 +43,12 @@ where A controls the asymmetry of the potential.
 - Time evolution of the wave function
 - Interactive visualization via plot input
 
+### 3. Periodic potential (band structure)
+
+- Calculation of energy bands as a function of k  
+- Implementation of Bloch boundary conditions  
+- Interactive visualization of eigenfunctions
+  
 ## Files
 
 - `quantenmechanik.py`  
