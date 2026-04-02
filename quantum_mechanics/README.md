@@ -15,9 +15,6 @@ V(x) = x^4 - x^2 - A x
 
 where A controls the asymmetry of the potential.
 
-#### Example
-
-![double-well potential with eigenvalues and eigenfunctions](quantum_mechanics/time-indep.png)
 
 
 ## Periodic Potential
@@ -32,9 +29,6 @@ The program computes the energy spectrum and visualizes the corresponding eigenf
 
 Periodic potentials occur in crystal lattices in solid-state physics and describe the behavior of charge carriers in solids.
 
-#### Example
-
-![Band structure and eigenfunctions](eigenfunctions_k_3.15.png)
 
 ## Contents
 
