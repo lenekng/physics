@@ -17,7 +17,7 @@ where A controls the asymmetry of the potential.
 
 #### Example
 
-![double-well potential with eigenvalues and eigenfunctions](time-indep.png)
+![double-well potential with eigenvalues and eigenfunctions](quantum_mechanics/time-indep.png)
 
 
 ## Periodic Potential
