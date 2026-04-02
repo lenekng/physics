@@ -19,9 +19,9 @@ where A controls the asymmetry of the potential.
 
 The project also includes a simulation of a particle in a periodic potential
 
-\[
-V(x) = A \cos(2\pi x)
-\]
+
+V(x) = A * cos(2 * pi x)
+
 
 The program computes the energy spectrum as a function of the Bloch wave vector and visualizes the corresponding eigenfunctions, leading to the formation of energy bands.
 
@@ -48,6 +48,10 @@ Periodic potentials occur in crystal lattices in solid-state physics and describ
 - Calculation of energy bands as a function of k  
 - Implementation of Bloch boundary conditions  
 - Interactive visualization of eigenfunctions
+
+  #### Example
+
+  
   
 ## Files
 
