@@ -64,6 +64,11 @@ Periodic potentials occur in crystal lattices in solid-state physics and describ
 - `time-dependent_Schrödinger_eq.py`  
   Simulates the time evolution of wave packets in the potential
 
+- `periodic_potential_schrödinger_eq.py`  
+  - Band structure calculation for a periodic potential  
+  - Bloch boundary conditions  
+  - Interactive eigenfunction visualization
+
 ## Methods
 
 - Finite difference method for spatial discretization
