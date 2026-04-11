@@ -28,18 +28,7 @@ Periodic boundary conditions are applied.
   - spin field
   - magnetization vs. temperature
 
-## Methods
-
-- Monte Carlo simulation (Metropolis algorithm)
-
 ## Requirements
 
 - numpy
 - matplotlib
-
-## Usage
-
-Run the simulation:
-
-```bash
-python 2d_Ising_model.py
